@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1A2041B1C6F8B9E000E63D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A2041A1C6F8B9E000E63D8 /* main.m */; };
+		E1A2041E1C6F8B9E000E63D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A2041D1C6F8B9E000E63D8 /* AppDelegate.m */; };
+		E1A204211C6F8B9E000E63D8 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A204201C6F8B9E000E63D8 /* FirstViewController.m */; };
+		E1A204241C6F8B9E000E63D8 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A204231C6F8B9E000E63D8 /* SecondViewController.m */; };
+		E1A204271C6F8B9E000E63D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1A204251C6F8B9E000E63D8 /* Main.storyboard */; };
+		E1A204291C6F8B9F000E63D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1A204281C6F8B9F000E63D8 /* Assets.xcassets */; };
+		E1A2042C1C6F8B9F000E63D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1A2042A1C6F8B9F000E63D8 /* LaunchScreen.storyboard */; };
+		E1A204371C6F8B9F000E63D8 /* iRadioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A204361C6F8B9F000E63D8 /* iRadioTests.m */; };
+		E1A204421C6F8B9F000E63D8 /* iRadioUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A204411C6F8B9F000E63D8 /* iRadioUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1A204331C6F8B9F000E63D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1A2040E1C6F8B9E000E63D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1A204151C6F8B9E000E63D8;
+			remoteInfo = iRadio;
+		};
+		E1A2043E1C6F8B9F000E63D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1A2040E1C6F8B9E000E63D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1A204151C6F8B9E000E63D8;
+			remoteInfo = iRadio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E1A204161C6F8B9E000E63D8 /* iRadio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iRadio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1A2041A1C6F8B9E000E63D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E1A2041C1C6F8B9E000E63D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E1A2041D1C6F8B9E000E63D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E1A2041F1C6F8B9E000E63D8 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		E1A204201C6F8B9E000E63D8 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		E1A204221C6F8B9E000E63D8 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		E1A204231C6F8B9E000E63D8 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		E1A204261C6F8B9E000E63D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E1A204281C6F8B9F000E63D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1A2042B1C6F8B9F000E63D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E1A2042D1C6F8B9F000E63D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1A204321C6F8B9F000E63D8 /* iRadioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iRadioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1A204361C6F8B9F000E63D8 /* iRadioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iRadioTests.m; sourceTree = "<group>"; };
+		E1A204381C6F8B9F000E63D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1A2043D1C6F8B9F000E63D8 /* iRadioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iRadioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1A204411C6F8B9F000E63D8 /* iRadioUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iRadioUITests.m; sourceTree = "<group>"; };
+		E1A204431C6F8B9F000E63D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1A204131C6F8B9E000E63D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1A2042F1C6F8B9F000E63D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1A2043A1C6F8B9F000E63D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1A2040D1C6F8B9E000E63D8 = {
+			isa = PBXGroup;
+			children = (
+				E1A204181C6F8B9E000E63D8 /* iRadio */,
+				E1A204351C6F8B9F000E63D8 /* iRadioTests */,
+				E1A204401C6F8B9F000E63D8 /* iRadioUITests */,
+				E1A204171C6F8B9E000E63D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1A204171C6F8B9E000E63D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1A204161C6F8B9E000E63D8 /* iRadio.app */,
+				E1A204321C6F8B9F000E63D8 /* iRadioTests.xctest */,
+				E1A2043D1C6F8B9F000E63D8 /* iRadioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1A204181C6F8B9E000E63D8 /* iRadio */ = {
+			isa = PBXGroup;
+			children = (
+				E1A2041C1C6F8B9E000E63D8 /* AppDelegate.h */,
+				E1A2041D1C6F8B9E000E63D8 /* AppDelegate.m */,
+				E1A2041F1C6F8B9E000E63D8 /* FirstViewController.h */,
+				E1A204201C6F8B9E000E63D8 /* FirstViewController.m */,
+				E1A204221C6F8B9E000E63D8 /* SecondViewController.h */,
+				E1A204231C6F8B9E000E63D8 /* SecondViewController.m */,
+				E1A204251C6F8B9E000E63D8 /* Main.storyboard */,
+				E1A204281C6F8B9F000E63D8 /* Assets.xcassets */,
+				E1A2042A1C6F8B9F000E63D8 /* LaunchScreen.storyboard */,
+				E1A2042D1C6F8B9F000E63D8 /* Info.plist */,
+				E1A204191C6F8B9E000E63D8 /* Supporting Files */,
+			);
+			path = iRadio;
+			sourceTree = "<group>";
+		};
+		E1A204191C6F8B9E000E63D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1A2041A1C6F8B9E000E63D8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E1A204351C6F8B9F000E63D8 /* iRadioTests */ = {
+			isa = PBXGroup;
+			children = (
+				E1A204361C6F8B9F000E63D8 /* iRadioTests.m */,
+				E1A204381C6F8B9F000E63D8 /* Info.plist */,
+			);
+			path = iRadioTests;
+			sourceTree = "<group>";
+		};
+		E1A204401C6F8B9F000E63D8 /* iRadioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E1A204411C6F8B9F000E63D8 /* iRadioUITests.m */,
+				E1A204431C6F8B9F000E63D8 /* Info.plist */,
+			);
+			path = iRadioUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1A204151C6F8B9E000E63D8 /* iRadio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1A204461C6F8B9F000E63D8 /* Build configuration list for PBXNativeTarget "iRadio" */;
+			buildPhases = (
+				E1A204121C6F8B9E000E63D8 /* Sources */,
+				E1A204131C6F8B9E000E63D8 /* Frameworks */,
+				E1A204141C6F8B9E000E63D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iRadio;
+			productName = iRadio;
+			productReference = E1A204161C6F8B9E000E63D8 /* iRadio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1A204311C6F8B9F000E63D8 /* iRadioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1A204491C6F8B9F000E63D8 /* Build configuration list for PBXNativeTarget "iRadioTests" */;
+			buildPhases = (
+				E1A2042E1C6F8B9F000E63D8 /* Sources */,
+				E1A2042F1C6F8B9F000E63D8 /* Frameworks */,
+				E1A204301C6F8B9F000E63D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1A204341C6F8B9F000E63D8 /* PBXTargetDependency */,
+			);
+			name = iRadioTests;
+			productName = iRadioTests;
+			productReference = E1A204321C6F8B9F000E63D8 /* iRadioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E1A2043C1C6F8B9F000E63D8 /* iRadioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1A2044C1C6F8B9F000E63D8 /* Build configuration list for PBXNativeTarget "iRadioUITests" */;
+			buildPhases = (
+				E1A204391C6F8B9F000E63D8 /* Sources */,
+				E1A2043A1C6F8B9F000E63D8 /* Frameworks */,
+				E1A2043B1C6F8B9F000E63D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1A2043F1C6F8B9F000E63D8 /* PBXTargetDependency */,
+			);
+			name = iRadioUITests;
+			productName = iRadioUITests;
+			productReference = E1A2043D1C6F8B9F000E63D8 /* iRadioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1A2040E1C6F8B9E000E63D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Farrah;
+				TargetAttributes = {
+					E1A204151C6F8B9E000E63D8 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					E1A204311C6F8B9F000E63D8 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = E1A204151C6F8B9E000E63D8;
+					};
+					E1A2043C1C6F8B9F000E63D8 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = E1A204151C6F8B9E000E63D8;
+					};
+				};
+			};
+			buildConfigurationList = E1A204111C6F8B9E000E63D8 /* Build configuration list for PBXProject "iRadio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1A2040D1C6F8B9E000E63D8;
+			productRefGroup = E1A204171C6F8B9E000E63D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1A204151C6F8B9E000E63D8 /* iRadio */,
+				E1A204311C6F8B9F000E63D8 /* iRadioTests */,
+				E1A2043C1C6F8B9F000E63D8 /* iRadioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1A204141C6F8B9E000E63D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1A2042C1C6F8B9F000E63D8 /* LaunchScreen.storyboard in Resources */,
+				E1A204291C6F8B9F000E63D8 /* Assets.xcassets in Resources */,
+				E1A204271C6F8B9E000E63D8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1A204301C6F8B9F000E63D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1A2043B1C6F8B9F000E63D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1A204121C6F8B9E000E63D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1A204241C6F8B9E000E63D8 /* SecondViewController.m in Sources */,
+				E1A2041E1C6F8B9E000E63D8 /* AppDelegate.m in Sources */,
+				E1A204211C6F8B9E000E63D8 /* FirstViewController.m in Sources */,
+				E1A2041B1C6F8B9E000E63D8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1A2042E1C6F8B9F000E63D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1A204371C6F8B9F000E63D8 /* iRadioTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1A204391C6F8B9F000E63D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1A204421C6F8B9F000E63D8 /* iRadioUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1A204341C6F8B9F000E63D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1A204151C6F8B9E000E63D8 /* iRadio */;
+			targetProxy = E1A204331C6F8B9F000E63D8 /* PBXContainerItemProxy */;
+		};
+		E1A2043F1C6F8B9F000E63D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1A204151C6F8B9E000E63D8 /* iRadio */;
+			targetProxy = E1A2043E1C6F8B9F000E63D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E1A204251C6F8B9E000E63D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1A204261C6F8B9E000E63D8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E1A2042A1C6F8B9F000E63D8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1A2042B1C6F8B9F000E63D8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1A204441C6F8B9F000E63D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E1A204451C6F8B9F000E63D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1A204471C6F8B9F000E63D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iRadio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.farrah.iradio.iRadio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E1A204481C6F8B9F000E63D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iRadio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.farrah.iradio.iRadio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E1A2044A1C6F8B9F000E63D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iRadioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.farrah.iradio.iRadioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iRadio.app/iRadio";
+			};
+			name = Debug;
+		};
+		E1A2044B1C6F8B9F000E63D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iRadioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.farrah.iradio.iRadioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iRadio.app/iRadio";
+			};
+			name = Release;
+		};
+		E1A2044D1C6F8B9F000E63D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = iRadioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.farrah.iradio.iRadioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iRadio;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E1A2044E1C6F8B9F000E63D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = iRadioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.farrah.iradio.iRadioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iRadio;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1A204111C6F8B9E000E63D8 /* Build configuration list for PBXProject "iRadio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1A204441C6F8B9F000E63D8 /* Debug */,
+				E1A204451C6F8B9F000E63D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1A204461C6F8B9F000E63D8 /* Build configuration list for PBXNativeTarget "iRadio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1A204471C6F8B9F000E63D8 /* Debug */,
+				E1A204481C6F8B9F000E63D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E1A204491C6F8B9F000E63D8 /* Build configuration list for PBXNativeTarget "iRadioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1A2044A1C6F8B9F000E63D8 /* Debug */,
+				E1A2044B1C6F8B9F000E63D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E1A2044C1C6F8B9F000E63D8 /* Build configuration list for PBXNativeTarget "iRadioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1A2044D1C6F8B9F000E63D8 /* Debug */,
+				E1A2044E1C6F8B9F000E63D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1A2040E1C6F8B9E000E63D8 /* Project object */;
+}
