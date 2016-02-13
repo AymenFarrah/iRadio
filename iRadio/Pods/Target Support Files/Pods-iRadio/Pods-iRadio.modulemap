@@ -1,0 +1,6 @@
+framework module Pods_iRadio {
+  umbrella header "Pods-iRadio-umbrella.h"
+
+  export *
+  module * { export * }
+}

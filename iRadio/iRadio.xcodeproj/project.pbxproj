@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2218BCECB4B360DB993654F7 /* Pods_iRadio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0FADD0C06694A25E2BC917 /* Pods_iRadio.framework */; };
 		E1A2041B1C6F8B9E000E63D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A2041A1C6F8B9E000E63D8 /* main.m */; };
 		E1A2041E1C6F8B9E000E63D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A2041D1C6F8B9E000E63D8 /* AppDelegate.m */; };
 		E1A204211C6F8B9E000E63D8 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A204201C6F8B9E000E63D8 /* FirstViewController.m */; };
@@ -16,6 +17,15 @@
 		E1A2042C1C6F8B9F000E63D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1A2042A1C6F8B9F000E63D8 /* LaunchScreen.storyboard */; };
 		E1A204371C6F8B9F000E63D8 /* iRadioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A204361C6F8B9F000E63D8 /* iRadioTests.m */; };
 		E1A204421C6F8B9F000E63D8 /* iRadioUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A204411C6F8B9F000E63D8 /* iRadioUITests.m */; };
+		E1A204561C6F9717000E63D8 /* Radio.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A204551C6F9717000E63D8 /* Radio.m */; };
+		E1A204571C6F9717000E63D8 /* Radio.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A204551C6F9717000E63D8 /* Radio.m */; };
+		E1A204581C6F9717000E63D8 /* Radio.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A204551C6F9717000E63D8 /* Radio.m */; };
+		E1CC48DB1C6FF27E00CA2393 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1CC48DA1C6FF27E00CA2393 /* AudioToolbox.framework */; };
+		E1CC48DD1C6FF31700CA2393 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1CC48DC1C6FF31700CA2393 /* AVFoundation.framework */; };
+		E1CC48DF1C6FF32900CA2393 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1CC48DE1C6FF32900CA2393 /* SystemConfiguration.framework */; };
+		E1CC48E11C6FF33100CA2393 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1CC48E01C6FF33100CA2393 /* Foundation.framework */; };
+		E1CC48E31C6FF33600CA2393 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1CC48E21C6FF33600CA2393 /* CoreGraphics.framework */; };
+		E1CC48E51C6FF33C00CA2393 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1CC48E41C6FF33C00CA2393 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		76E13943C4CFC26AFB7C5224 /* Pods-iRadio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iRadio.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iRadio/Pods-iRadio.debug.xcconfig"; sourceTree = "<group>"; };
+		D303F0FCAD53A4B61A69D135 /* Pods-iRadio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iRadio.release.xcconfig"; path = "Pods/Target Support Files/Pods-iRadio/Pods-iRadio.release.xcconfig"; sourceTree = "<group>"; };
 		E1A204161C6F8B9E000E63D8 /* iRadio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iRadio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1A2041A1C6F8B9E000E63D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E1A2041C1C6F8B9E000E63D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -54,6 +66,15 @@
 		E1A2043D1C6F8B9F000E63D8 /* iRadioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iRadioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1A204411C6F8B9F000E63D8 /* iRadioUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iRadioUITests.m; sourceTree = "<group>"; };
 		E1A204431C6F8B9F000E63D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1A204541C6F9717000E63D8 /* Radio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Radio.h; sourceTree = "<group>"; };
+		E1A204551C6F9717000E63D8 /* Radio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Radio.m; sourceTree = "<group>"; };
+		E1CC48DA1C6FF27E00CA2393 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		E1CC48DC1C6FF31700CA2393 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E1CC48DE1C6FF32900CA2393 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E1CC48E01C6FF33100CA2393 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E1CC48E21C6FF33600CA2393 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E1CC48E41C6FF33C00CA2393 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FD0FADD0C06694A25E2BC917 /* Pods_iRadio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iRadio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +82,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1CC48E51C6FF33C00CA2393 /* UIKit.framework in Frameworks */,
+				E1CC48E31C6FF33600CA2393 /* CoreGraphics.framework in Frameworks */,
+				E1CC48E11C6FF33100CA2393 /* Foundation.framework in Frameworks */,
+				E1CC48DF1C6FF32900CA2393 /* SystemConfiguration.framework in Frameworks */,
+				E1CC48DD1C6FF31700CA2393 /* AVFoundation.framework in Frameworks */,
+				E1CC48DB1C6FF27E00CA2393 /* AudioToolbox.framework in Frameworks */,
+				2218BCECB4B360DB993654F7 /* Pods_iRadio.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +109,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA41A4A10345E320AB940DBD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76E13943C4CFC26AFB7C5224 /* Pods-iRadio.debug.xcconfig */,
+				D303F0FCAD53A4B61A69D135 /* Pods-iRadio.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D66241321716B135EEE389DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1CC48E41C6FF33C00CA2393 /* UIKit.framework */,
+				E1CC48E21C6FF33600CA2393 /* CoreGraphics.framework */,
+				E1CC48E01C6FF33100CA2393 /* Foundation.framework */,
+				E1CC48DE1C6FF32900CA2393 /* SystemConfiguration.framework */,
+				E1CC48DC1C6FF31700CA2393 /* AVFoundation.framework */,
+				E1CC48DA1C6FF27E00CA2393 /* AudioToolbox.framework */,
+				FD0FADD0C06694A25E2BC917 /* Pods_iRadio.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E1A2040D1C6F8B9E000E63D8 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +139,8 @@
 				E1A204351C6F8B9F000E63D8 /* iRadioTests */,
 				E1A204401C6F8B9F000E63D8 /* iRadioUITests */,
 				E1A204171C6F8B9E000E63D8 /* Products */,
+				BA41A4A10345E320AB940DBD /* Pods */,
+				D66241321716B135EEE389DA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +157,7 @@
 		E1A204181C6F8B9E000E63D8 /* iRadio */ = {
 			isa = PBXGroup;
 			children = (
+				E1A204531C6F96FC000E63D8 /* Model */,
 				E1A2041C1C6F8B9E000E63D8 /* AppDelegate.h */,
 				E1A2041D1C6F8B9E000E63D8 /* AppDelegate.m */,
 				E1A2041F1C6F8B9E000E63D8 /* FirstViewController.h */,
@@ -145,6 +199,15 @@
 			path = iRadioUITests;
 			sourceTree = "<group>";
 		};
+		E1A204531C6F96FC000E63D8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E1A204541C6F9717000E63D8 /* Radio.h */,
+				E1A204551C6F9717000E63D8 /* Radio.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,9 +215,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E1A204461C6F8B9F000E63D8 /* Build configuration list for PBXNativeTarget "iRadio" */;
 			buildPhases = (
+				D6E31DD25E28FC65D6E199BA /* Check Pods Manifest.lock */,
 				E1A204121C6F8B9E000E63D8 /* Sources */,
 				E1A204131C6F8B9E000E63D8 /* Frameworks */,
 				E1A204141C6F8B9E000E63D8 /* Resources */,
+				3615DD547335702632622276 /* Embed Pods Frameworks */,
+				B7C1D8D63E27FBCB1A2426D9 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -270,6 +336,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3615DD547335702632622276 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iRadio/Pods-iRadio-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7C1D8D63E27FBCB1A2426D9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iRadio/Pods-iRadio-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6E31DD25E28FC65D6E199BA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E1A204121C6F8B9E000E63D8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -278,6 +392,7 @@
 				E1A204241C6F8B9E000E63D8 /* SecondViewController.m in Sources */,
 				E1A2041E1C6F8B9E000E63D8 /* AppDelegate.m in Sources */,
 				E1A204211C6F8B9E000E63D8 /* FirstViewController.m in Sources */,
+				E1A204561C6F9717000E63D8 /* Radio.m in Sources */,
 				E1A2041B1C6F8B9E000E63D8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +402,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1A204371C6F8B9F000E63D8 /* iRadioTests.m in Sources */,
+				E1A204571C6F9717000E63D8 /* Radio.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +411,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1A204421C6F8B9F000E63D8 /* iRadioUITests.m in Sources */,
+				E1A204581C6F9717000E63D8 /* Radio.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +534,7 @@
 		};
 		E1A204471C6F8B9F000E63D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76E13943C4CFC26AFB7C5224 /* Pods-iRadio.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iRadio/Info.plist;
@@ -428,6 +546,7 @@
 		};
 		E1A204481C6F8B9F000E63D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D303F0FCAD53A4B61A69D135 /* Pods-iRadio.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iRadio/Info.plist;
@@ -504,6 +623,7 @@
 				E1A204481C6F8B9F000E63D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E1A204491C6F8B9F000E63D8 /* Build configuration list for PBXNativeTarget "iRadioTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +632,7 @@
 				E1A2044B1C6F8B9F000E63D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E1A2044C1C6F8B9F000E63D8 /* Build configuration list for PBXNativeTarget "iRadioUITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +641,7 @@
 				E1A2044E1C6F8B9F000E63D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
